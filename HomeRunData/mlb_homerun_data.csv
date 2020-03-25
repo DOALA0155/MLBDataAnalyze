@@ -1,0 +1,51 @@
+,PlayerName,Velocity,Distance,Angle,HitType,Pitcher,PitchSpeed,Date
+0,"Stanton, Giancarlo",120.6,279,3.3,Single ,"Cashner, Andrew",87.7,3/28/19
+1,"Guerrero Jr., Vladimir",118.9,150,4.5,Single ,"Nova, Ivan",93.4,5/11/19
+2,"Stanton, Giancarlo",118.9,277,7.5,Single ,"Armenteros, Rogelio",79.5,6/20/19
+3,"Guerrero Jr., Vladimir",118.7,366,15.7,Single ,"Adams, Chance",84.2,8/10/19
+4,"Sanchez, Gary",118.3,412,20.1,Home Run ,"Morin, Mike",91.0,5/3/19
+5,"Alonso, Pete",118.3,454,17.0,Home Run ,"Venters, Jonny",95.1,4/11/19
+6,"Aquino, Aristides",118.3,445,19.8,Home Run ,"Hamels, Cole",83.6,8/8/19
+7,"Guerrero Jr., Vladimir",118.3,273,-1.3,Double ,"German, Domingo",79.8,8/8/19
+8,"Judge, Aaron",118.1,148,7.1,Force Out ,"Cobb, Alex",93.6,4/4/19
+9,"Yelich, Christian",117.9,256,15.3,Double ,"Samardzija, Jeff",90.8,6/16/19
+10,"Abreu, Jose",117.9,306,9.2,Double ,"Barlow, Scott",93.8,9/11/19
+11,"Alvarez, Yordan",117.9,158,-1.4,Field Out ,"McClain, Reggie",93.3,9/6/19
+12,"Schwarber, Kyle",117.6,126,3.4,Single ,"Wheeler, Zack",92.7,6/22/19
+13,"Schwarber, Kyle",117.5,331,15.3,Double ,"Stripling, Ross",87.9,4/25/19
+14,"Alonso, Pete",117.1,409,21.4,Home Run ,"Chatwood, Tyler",95.4,6/20/19
+15,"Cruz, Nelson",117.0,281,9.6,Single ,"Giolito, Lucas",95.4,8/21/19
+16,"Guerrero Jr., Vladimir",116.8,120,6.2,Field Out ,"Alexander, Tyler",80.7,7/21/19
+17,"Sanchez, Gary",116.8,293,10.8,Double ,"Kolarek, Adam",89.4,6/19/19
+18,"Trout, Mike",116.6,145,5.5,Field Out ,"Fillmyer, Heath",91.5,4/26/19
+19,"Sanchez, Gary",116.4,374,12.3,Double ,"Richard, Clayton",91.1,6/4/19
+20,"Harper, Bryce",116.4,442,22.5,Home Run ,"Strickland, Hunter",98.2,9/24/19
+21,"Judge, Aaron",116.4,159,-3.1,Single ,"Rogers, Taylor",96.3,7/22/19
+22,"Judge, Aaron",116.3,442,18.9,Home Run ,"Stanek, Ryne",98.4,7/5/19
+23,"Marte, Ketel",116.3,360,11.9,Single ,"Freeland, Kyle",90.8,8/14/19
+24,"Guerrero Jr., Vladimir",116.3,341,4.6,Single ,"Marquez, German",94.5,5/31/19
+25,"Judge, Aaron",116.3,342,9.6,Single ,"Biagini, Joe",93.7,6/26/19
+26,"Yelich, Christian",116.3,249,13.0,Single ,"Flaherty, Jack",77.9,4/16/19
+27,"Bell, Josh",116.2,454,27.5,Home Run ,"Gray, Jon",87.0,5/22/19
+28,"Garcia, Avisail",116.2,177,8.9,Single ,"Suarez, Jose",90.0,6/15/19
+29,"Sanchez, Gary",116.1,131,7.8,Field Out ,"Porcello, Rick",89.7,9/8/19
+30,"Zunino, Mike",116.1,268,13.0,Double ,"Colome, Alex",89.3,4/10/19
+31,"Alonso, Pete",116.0,299,15.2,Single ,"Webb, Tyler",79.3,4/19/19
+32,"Judge, Aaron",116.0,467,23.8,Home Run ,"Soria, Joakim",90.0,8/20/19
+33,"Sanchez, Gary",116.0,441,18.5,Home Run ,"Plutko, Adam",92.6,8/15/19
+34,"Cron, C.J.",116.0,319,15.6,Single ,"Jackson, Luke",87.2,8/7/19
+35,"Tatis Jr., Fernando",115.9,323,7.2,Single ,"Davis, Wade",93.5,6/14/19
+36,"Acuna Jr., Ronald",115.9,463,28.4,Home Run ,"Wood, Alex",89.7,8/2/19
+37,"Cruz, Nelson",115.9,340,8.6,Single ,"Anderson, Tanner",91.6,7/4/19
+38,"Marte, Ketel",115.8,312,9.1,Single ,"McGee, Jake",92.9,5/30/19
+39,"Moncada, Yoan",115.8,324,17.5,Double ,"Jurado, Ariel",91.3,8/22/19
+40,"Soler, Jorge",115.7,450,26.1,Home Run ,"Jackson, Edwin",91.4,9/4/19
+41,"Schwarber, Kyle",115.7,356,17.4,Double ,"Keller, Mitch",94.2,9/24/19
+42,"Gomez, Carlos",115.7,292,9.1,Field Out ,"Bettis, Chad",86.8,6/9/19
+43,"Soler, Jorge",115.6,359,13.3,Double ,"Zimmermann, Jordan",85.0,7/14/19
+44,"Cron, C.J.",115.6,388,16.4,Home Run ,"Lopez, Jorge",94.5,9/29/19
+45,"Cruz, Nelson",115.5,249,9.1,Double ,"Peacock, Brad",92.0,5/2/19
+46,"Guerrero Jr., Vladimir",115.5,151,4.8,Field Out ,"Covey, Dylan",89.8,5/16/19
+47,"Guerrero Jr., Vladimir",115.5,259,4.2,Single ,"Givens, Mychal",94.4,8/3/19
+48,"Harper, Bryce",115.5,346,17.5,Field Out ,"Darvish, Yu",85.9,5/20/19
+49,"Garcia, Avisail",115.5,303,7.1,Single ,"Thornton, Trent",94.7,4/12/19
