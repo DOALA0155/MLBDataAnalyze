@@ -54,9 +54,15 @@ def train_model(df, model):
     print(score)
     return model
 
+def train(model):
+    model = train_model(df, model)
+    predicted_pairplot(df, model)
+
 df = pd.read_csv("mlb_hit_data.csv")
 df = df.drop(df.columns[[0, 1, 6, 8]], axis=1)
 
+
 svm = SVC()
-svm = train_model(df, svm)
-predicted_pairplot(df, svm)
+reg = LogisticRegression()
+
+train(svm)

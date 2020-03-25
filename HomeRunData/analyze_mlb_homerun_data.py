@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("mlb_homerun_data.csv")
+df = pd.read_csv("mlb_homerun_analyze_data.csv")
 df = df.drop(df.columns[[0]], axis=1)
 
 def regression(df):
@@ -35,19 +35,20 @@ def clustering(df):
     db.fit(data)
 
     labels = db.labels_
-    cluster0 = data[labels==0]
-    cluster1 = data[labels==1]
+    df_y = pd.DataFrame(labels)
+    df_y.columns = ["Cluster"]
+    df_pairplot = pd.concat([df, df_y], axis=1)
 
-    clusters = [cluster0, cluster1]
-    colors = ["b", "g", "r"]
-    cluster_ids = [[0, 1], [0, 3], [0, 4], [1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
-    cluster_name = {0: "Distance", 1: "Velocity", 2: "Angle", 3: "Height", 4: "PitchSpeed"}
+    pg = sns.pairplot(df_pairplot, hue="Cluster")
+    pg.savefig("./mlb_homerun_clustering.png")
 
-    for cluster_id in cluster_ids:
-        for cluster, c in zip(clusters, colors):
-            plt.scatter(cluster[:, cluster_id[0]], cluster[:, cluster_id[1]], color=c)
-            plt.xlabel(cluster_name[cluster_id[0]])
-            plt.ylabel(cluster_name[cluster_id[1]])
-        plt.show()
+    cluster_average = []
+    for i in range(2):
+        cluster = data[labels==i]
+        df = pd.DataFrame(cluster)
+        df.columns = ["Distance", "Velocity", "Angle", "Height", "PitchSpeed"]
+        df_mean = df.mean()
+        print("Cluster {}".format(i))
+        print(df_mean)
 
 clustering(df)
